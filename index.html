@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukkural</title>
+    <link rel="icon" href="tamilicon.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="container">
+        <div class="container" style=" width: 100%;">
+            <h1 style="text-align: center;" class="text-white">THIRUKKURAL</h1>
+            <p style="text-align: center;"><img src="thiru.jpg" alt="thiruvalluvar" width="400px"></p>
+            <h2 style="text-align: center;" class="text-white"><b>"Seven words in a Thirukkural has bigger
+                    meanings than seven continents."</b> </h2>
+        </div>
+        <div class="container w-50" style="width: 40% !important;">
+            <div class="input-group mb-3 ">
+                <input type="number" class="form-control text-center" id="userinput" value=""
+                    style="background-color: whitesmoke;" placeholder="Enter a number between 1 to 1330">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit" id="searchbutton" onclick="thiru()">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-mg-12 col-lg-6">
+                <table class="table table-bordered">
+                    <thead>
+                        <th>English</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p id="chap_eng"></p>
+                                <p id="eng"></p>
+                                <p></p>
+                                <p id="eng_exp"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-mg-12 col-lg-6">
+                <table class="table table-bordered">
+                    <thead>
+                        <th>Tamil</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p id="chap_tam"></p>
+                                <p style="margin-bottom: 0px;" id="part1_tam"></p>
+                                <p id="part2_tam"></p>
+                                <p id="tam_exp"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

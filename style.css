@@ -1,0 +1,18 @@
+body{
+background-color: black;
+}
+.container{
+    padding-top: 20px;
+}
+.image{
+    
+    width: 400px;
+    height: 400px;
+    
+}
+.row{
+    padding-top: 30px;
+}
+th,td{
+    color: white;
+}
